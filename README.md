@@ -1,3 +1,7 @@
+# Spring Boot CRUD Operation
+
+This is a simple CRUD (Create, Read, Update, Delete) application built using **Spring Boot**, **Hibernate (JPA)**, and **MySQL**.  
+The project demonstrates database operations on a `Student` entity.
 
 ## 🚀 Technologies Used
 
@@ -20,9 +24,9 @@
 
 ```bash
 git clone https://github.com/patilchetan21/Spring_Boot_CRUD_Operation.git
-cd cruddemo
+cd Spring_Boot_CRUD_Operation
 
-**Project Structure**
+📁 Project Structure
 src
 ├── main
 │   ├── java
@@ -36,17 +40,20 @@ src
 │   └── resources
 │       └── application.properties
 └── test
-
+🔧 Configuration
 
 Update the application.properties file with your database details:
+
+properties
 spring.datasource.url=jdbc:mysql://localhost:3306/student_db
 spring.datasource.username=root
 spring.datasource.password=yourpassword
-
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 
-**Build the Project**
+🛠️ Build and Run the Project
+Build the Project
 mvn clean install
-**Run the App**
+
+Run the App
 mvn spring-boot:run
